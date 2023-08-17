@@ -4,92 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="index.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
     <h1 class="text-5xl 	text-center">CARDS APP</h1>
+    <button onclick="showUserData()">refresh userr data</button>
     <section class="flex items-center bg-gray-200 lg:h-screen font-poppins dark:bg-gray-900 ">
         <div class="justify-center max-w-6xl px-4 py-4 mx-auto lg:py-0">
-            <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 md:grid-cols-2">
+            <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 md:grid-cols-2" id="container">
               
-              <!-- loop part -->
+              <!--card container -->
               
-                <div class="relative bg-white rounded-2xl dark:bg-gray-700">
-                    <div class="w-full h-56 px-4 pt-4">
-                       
-                        
-                  
-                        <img src="
-                         https://avatars.githubusercontent.com/u/1?v=4" alt=""
-                            class="object-cover w-full h-full rounded-lg ">
-                       
-                    </div>
-                    <div>
-                        <div class="p-4">
-                            <div class="mb-3">
-                                <a href="">
-                                    <h2  class="text-2xl font-semibold dark:text-gray-300">
-                                      Name :  Mojombo<br>
-                                      Id : 1<br>
-                                      Followers : 346<br>
-                                    </h2>
-                                </a>
-                            </div>
-                            <p class="pb-16 text-base font-base text-gray-700 dark:text-gray-400">
-                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, eaque?
-                            </p>
-                        </div>
-                      
-                    </div>
-                </div>
-                <!-- loop part end -->
-
-
-                <div class="relative bg-white rounded-2xl dark:bg-gray-700">
-                    <div class="w-full h-56 px-4 pt-4 ">
-                        <img src="https://avatars.githubusercontent.com/u/3?v=4" alt=""
-                            class="object-cover w-full h-full rounded-lg ">
-                    </div>
-                    <div>
-                        <div class="p-4">
-                            <div class="mb-3">
-                                <a href="">
-                                    <h2 class="text-2xl font-semibold dark:text-gray-300">
-                                        Defunkt
-                                    </h2>
-                                </a>
-                            </div>
-                            <p class="pb-16 text-base font-base text-gray-700 dark:text-gray-400">
-                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, doloribus!
-                            </p>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="relative bg-white rounded-2xl dark:bg-gray-700">
-                    <div class="w-full h-56 px-4 pt-4 ">
-                        <img src="https://avatars.githubusercontent.com/u/2?v=4" alt=""
-                            class="object-cover w-full h-full rounded-lg ">
-                    </div>
-                    <div>
-                        <div class="p-4">
-                            <div class="mb-3">
-                                <a href="">
-                                    <h2 class="text-2xl font-semibold dark:text-gray-300">
-                                        Pjhyett
-                                    </h2>
-                                </a>
-                            </div>
-                            <p class="pb-16 text-base font-base text-gray-700 dark:text-gray-400">
-                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, omnis?
-                            </p>
-                        </div>
-                       
-                    </div>
-                </div>
+               
+               
             </div>
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
